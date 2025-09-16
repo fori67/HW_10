@@ -1,0 +1,121 @@
+    1  clear
+    2  grap --help
+    3  git version
+    4  less index.html
+    5  cd
+    6  clear
+    7  pwd
+    8  ls -l
+    9  ls -l -t
+   10  clear
+   11  ls
+   12  cd /Projects
+   13  clear
+   14  ls ./Projects/
+   15  C:\Users\Sergio\Documents\Python
+   16  ls /
+   17  ls ~/Documents/
+   18  cd ~/Documents/
+   19  ls
+   20  cd ~/projects
+   21  cd
+   22  cd ~/Documents/projects/
+   23  pwd
+   24  which pwd
+   25  which cd
+   26  which mv
+   27  cd /bin
+   28  pwd
+   29  ls
+   30  cd
+   31  pwd
+   32  cd ~/Documents/projects/
+   33  pwd
+   34  ls
+   35  pwd
+   36  cd
+   37  cd ~/Documents/projects/my-project
+   38  ls
+   39  cat hello-world
+   40  cat > hello-world
+   41  cat hello-world
+   42  echo $PATH
+   43  PATH=~/Documents/projects/my-projects:$PATH
+   44  echo $PATH
+   45  hello-world
+   46  hello-world
+   47  PATH=~/Documents/projects/my-project:$PATH
+   48  hello-world
+   49  echo $PATH
+   50  hello-world
+   51  cat >~/.zshrc
+   52  hello-world
+   53  echo $PATH
+   54  PATH=~/Documents/projects/my-project:$PATH
+   55  hello-world
+   56  cat .~/.bach_profile
+   57  cat > ~/.bach_profile
+   58  hello-world
+   59  hello-world
+   60  alias home="cd ~"
+   61  cd Documents/
+   62  home
+   63  pwd
+   64  cd Documents/
+   65  home
+   66  nano ~/.bash_profile
+   67  cd Documents/
+   68  home
+   69  pwd
+   70  git init
+   71  rm -r .git
+   72  git status
+   73  cd ./Documents/projects/my-page
+   74  git status
+   75  ped
+   76  pwd
+   77  git lg
+   78  git lg
+   79  [200~$ git clone  git clone ^[[200~git@github.com:fori67/py-count-occurrences.git~
+   80  help cd / man cd
+   81  [200~
+   82  [200~git config --global user.name "Твоё Имя"
+   83  git config --global user.email "youexample.com"
+   84  git config --global init.defaultBranch main
+   85  git config --global core.autocrlf true    удобно на Windows
+   86  git config --global user.name "Sergio"
+   87  git config --global user.email "sergiikhora@gmail.com"
+   88  git config --global init.defaultBranch main
+   89  git config --global core.autocrlf true
+   90  git config --list
+   91  git config --global user.email "fori067@gmail.com"
+   92  git config --list
+   93  cd /c/Users/Sergio
+   94  git clone https://github.com/fori67/HW_10.git
+   95  cd HW_10
+   96  touch text_ignore.txt
+   97  cd /c/Users/Sergio/Desktop
+   98  git clone https://github.com/fori67/HW_10.git
+   99  cd HW_10
+  100  touch text_ignore.txt
+  101  git status
+  102  touch main_test.txt
+  103  git status
+  104  git add .
+  105  git commit -m "Add main_test.txt"
+  106  git checkout -b develop
+  107  touch develop_test.txt
+  108  git add .
+  109  git commit -m "Add develop_test.txt"
+  110  echo "just a small change" >> develop_test.txt
+  111  git status
+  112  git add develop_test.txt
+  113  git commit -m "Update develop_test.txt: add small change"
+  114  git push -u origin develop
+  115  git checkout main
+  116  git pull
+  117  git merge develop
+  118  git log --oneline --graph --decorate -n 20
+  119  pwd
+  120  ls -la
+  121  history > command_list.csv
